@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Emah Huzzaemah</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">EmH</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/Profil.png" alt="John Doe profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Emah Huzzaemah</h1>
+        <p class="section__text__p2">UI/UX Desainer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/CV_Emah_Huzzaemah.pdf')"
+          >
+            Download CV
+          </button>
+         
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin1.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/emah-huzzaemah?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'"
+          />
+          <img
+            src="./assets/Email1.png"
+            alt="My Email profile"
+            class="icon"
+            onclick="location.href='https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=emahhuzzaemah71424@gmail.com'"
+          />
+          <img
+            src="./assets/instagram.png"
+            alt="My Insatagram profile"
+            class="icon"
+            onclick="location.href='https://www.instagram.com/emhh_30/'"
+          />
+          <img
+          src="./assets/whatsapp.png"
+          alt="My whatsapp profile"
+          class="icon"
+          onclick="location.href='https://wa.me/08596620610'"
+        />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      
+          <div class="text-container">
+            <p>
+              I am Emah Huzzaemah, a third year software engineering student 
+              with deep interest in UI/UX Designer. I am experienced in solving 
+              various kinds of independent and team project tasks. Have a desire to learn and are able
+              communicate well.
+            </p>
+          </div>
+          <div class="education">
+            <div class="about-containers">
+              <div class="details-container">
+                <h2 class="education-sub-title">Technical Skills</h2>
+                <div class="article-container">
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Educationicon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>HTML</h3>
+                      <p>Experienced</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Educationicon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>CSS</h3>
+                      <p>Experienced</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Figma</h3>
+                      <p>Intermediate</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>JavaScript</h3>
+                      <p>Basic</p>
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Ms Office</h3>
+                      <p>Basic</p>
+                    </div>
+                  </article>
+                  
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Material UI</h3>
+                      <p>Intermediate</p>
+                    </div>
+                  </article>
+                </div>
+              </div>
+              <div class="details-container">
+                <h2 class="experience-sub-title">Soft Skills</h2>
+                <div class="article-container">
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Thorough</h3>
+                  
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Responsible</h3>
+                      
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Able to work together in a team</h3>
+                      
+                    </div>
+                  </article>
+                  <article>
+                    <img
+                      src="./assets/checkmark.png"
+                      alt="Experience icon"
+                      class="icon"
+                    />
+                    <div>
+                      <h3>Creativity</h3>
+                      
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#education'"
+      />
+    </section>
+    <section id="education">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Education</h1>
+      <main class="row">
+		
+        <!--   *******  Education Section Starts  *******   -->
+    
+        <section class="col">
+    
+          <div class="contents">
+            
+            <div class="box">
+              <h4>2019 - 2021</h4>
+              <h3>Mathematics and science</h3>
+              <p>SMAN 1 Plered</p>
+            </div>
+    
+            <div class="box">
+              <h4>2021 - Now</h4>
+              <h3>Software engineering</h3>
+              <p>Politeknik Enjinering Indorama</p>
+            </div>
+    
+        </section>
+    
+        
+
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Project1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Enfiro Found</h2>
+            <p>Enviro Found is an Android application designed to make donations for the environment, humanity, animals and natural disasters</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://dribbble.com/shots/24320422-Enfiro-Found?added_first_shot=true&utm_source=Clipboard_Shot&utm_campaign=06_30&utm_content=Enfiro%20Found&utm_medium=Social_Share'"
+              >
+              Live Demo
+              </button>
+              
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Project2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Japanes Shusi</h2>
+            <p>Japanes Food is a website design that sells various kinds of typical Japanese sushi</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://dribbble.com/shots/24320497-Japanes-Food?new_shot_upload=true&utm_source=Clipboard_Shot&utm_campaign=06_30&utm_content=Japanes%20Food&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=06_30&utm_content=Japanes%20Food&utm_medium=Social_Share'"
+              >
+                Live Demo
+              </button>
+             
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Project3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">TheTravelGuys</h2>
+            <p>TheTravelGuys is an Android application design designed for ordering and paying for plane tickets</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://dribbble.com/shots/24320611-TheTravelGuys?new_shot_upload=true&utm_source=Clipboard_Shot&utm_campaign=06_30&utm_content=TheTravelGuys&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=06_30&utm_content=TheTravelGuys&utm_medium=Social_Share'"
+              >
+                Live Demo
+              </button>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/Email1.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="emahhuzzaemah71424@gmail.com">emahhuzzaemah71424@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin1.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Emah Huzzaemah.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
